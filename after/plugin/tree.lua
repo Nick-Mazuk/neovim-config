@@ -23,3 +23,5 @@ require("nvim-tree").setup({
         }
     }
 })
+
+vim.keymap.set("n", "<C-d>", ":NvimTreeFocus<CR>", {noremap = true, silent = true})
