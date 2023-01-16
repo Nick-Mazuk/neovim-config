@@ -66,9 +66,9 @@ return require('packer').startup(function(use)
     use {
         'nvim-tree/nvim-tree.lua',
         requires = {
-            'nvim-tree/nvim-web-devicons', -- optional, for file icons
+            'nvim-tree/nvim-web-devicons', -- optional, for file icon
         },
-        tag = 'nightly' -- optional, updated every week. (see issue #1193)
+        tag = 'nightly' -- optional, updated every week. (see issue #1193
     }
 
     use 'voldikss/vim-floaterm'
@@ -115,5 +115,7 @@ return require('packer').startup(function(use)
             vim.keymap.set("n", "gK", require("hover").hover_select, { desc = "hover.nvim (select)" })
         end
     }
-    use 'justinmk/vim-sneak'
+    use 'ggandor/lightspeed.nvim'
+    use 'airblade/vim-gitgutter'
+
 end)
