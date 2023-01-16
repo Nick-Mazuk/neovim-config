@@ -117,4 +117,5 @@ return require('packer').startup(function(use)
     }
     use 'ggandor/lightspeed.nvim'
     use 'airblade/vim-gitgutter'
+    use 'NvChad/nvim-colorizer.lua'
 end)
