@@ -117,5 +117,4 @@ return require('packer').startup(function(use)
     }
     use 'ggandor/lightspeed.nvim'
     use 'airblade/vim-gitgutter'
-
 end)
