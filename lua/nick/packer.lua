@@ -118,4 +118,9 @@ return require('packer').startup(function(use)
     use 'ggandor/lightspeed.nvim'
     use 'airblade/vim-gitgutter'
     use 'NvChad/nvim-colorizer.lua'
+    use 'petertriho/nvim-scrollbar'
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
 end)
