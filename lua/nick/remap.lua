@@ -23,3 +23,6 @@ vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
 -- Remaps ⌘S to save like all other, sensible programs
 vim.keymap.set("n", "<C-s>", ":w<CR>")
+
+-- Navigate to the previously opened file
+vim.keymap.set("n", "<C-[>", "<C-6>")
