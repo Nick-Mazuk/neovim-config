@@ -26,3 +26,6 @@ vim.keymap.set("n", "<C-s>", ":w<CR>")
 
 -- Navigate to the previously opened file
 vim.keymap.set("n", "<C-[>", "<C-6>")
+
+-- Rename an identifier
+vim.keymap.set("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>", { noremap = true })
